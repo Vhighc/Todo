@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&family=Poppins:wght@100;200;300&family=Quicksand:wght@300;400;600;700&family=Roboto:wght@100;300;400&display=swap');
+
+.innerherosec{
+    /* text-align: center; */
+    height: 100%;
+    display: flex;
+    /* margin: 0 30%; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.herobgcolor{
+    background-color: #F7F8FA;
+    text-align: center;
+    width: 50%;
+}
+.herobgcolor>h1{
+    margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+    color: #1D252C;
+    font-weight: 500;
+    font-size: 40px;
+}
+.herobgcolor>p{
+    margin-bottom: 10%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    color: #1D252C;
+    font-size: 18px;
+}
+.herobgcolor>button{
+    color: #FFFFFF;
+    font-size: 20.65px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: #56B280;
+    width: 310px;
+    height: 40px;
+    border: none;
+    margin-bottom: 10%;
+}

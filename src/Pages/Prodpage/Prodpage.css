@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&family=Poppins:wght@100;200;300&family=Quicksand:wght@300;400;600;700&family=Roboto:wght@100;300;400&display=swap');
+
+.page2prod{
+    display: flex;
+    margin-top: 5%;
+    
+}
+.propg2prod>p{
+    font-family: 'Poppins', sans-serif;  
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.8999999165534973px;
+    text-align: center;
+    position: relative;
+    left: 38px;
+    margin-left: 13%;
+    margin-bottom: 5%;
+    margin-right: 0.9%;
+}
+#freeship{
+    font-family: 'Poppins', sans-serif;  
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.8999999165534973px;
+    font-weight: 600;
+    color: rgba(86, 178, 128, 1);
+    position: relative;
+    left: 260px;
+}
+.prodpgsec01imgcont{
+    background: rgba(247, 248, 250, 1);
+    position: relative;
+    left: 80px;
+    margin-left: 6%;
+    width: 440px;
+    height: 380px;
+    margin-bottom: 2%;
+}
+.prodpgsec01imgcont>img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    align-items: center;
+}
+.preradiosecoptpg{
+    border: 1px solid rgba(230, 230, 230, 1);
+    margin-top: 5%;
+}
+.prodpagebutt>button{
+    display: flex;
+}
+.simica{
+    display: flex;
+}
+.presimica{
+    margin-left: 5%;
+    margin-bottom: 13%;
+}
+.presimica>h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: -0.8999999165534973px;
+    color: rgba(39, 39, 39, 1);
+    margin-bottom: 2%;
+}
+.subsimica01{
+    width: 25%;
+}
+.subsimica01>h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.8999999165534973px;
+    color: rgba(86, 178, 128, 1);
+}
+.subsimica01>p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.8999999165534973px;
+    text-align: center;
+    color: rgba(39, 39, 39, 1);
+    position: relative;
+    top: 25px;
+    right: 13px;
+}
+.prodpagebutt{
+    position: relative;
+    top: 30px;
+}
+.prodpagebutt>button{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.8999999165534973px;
+    width: 58px;
+    height: 25px;
+    justify-content: center;
+    gap: 10%;
+    border: 1px solid rgba(86, 178, 128, 1);
+
+}
+.prodpagebutt>button>div{
+    color: rgba(86, 178, 128, 1);
+}
+.prodpgradiosec{
+    margin-right: 20%;
+    margin-left: 9%; 
+}
+a>button{
+    display: flex;
+    margin-top: 15%;
+    width: 100%;
+    height: 42px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: rgba(86, 178, 128, 1);
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    border: none;
+}
+
+.prodpgradiosec>a{
+    text-decoration: none;
+}
+.prodpgradiosec>div>label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    letter-spacing: -0.8999999165534973px;
+    color: rgba(39, 39, 39, 1);
+    margin-left: 3%;
+}
+.prodpgradiosec>div>input{
+    margin-left: 3%;
+}
+.radiosecoptpg>input{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.radiosecoptpg>select{
+    border: none;
+    border: 1px solid rgba(231, 231, 231, 1);
+    position: relative;
+    left: 6px;
+}
+.radiosecoptpg>label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    letter-spacing: -0.8999999165534973px;
+    color: rgba(39, 39, 39, 1);
+    margin-left: 3%; 
+}
+
+.subsecoptpg>p{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+} 
+.seedet{
+    color: rgba(86, 178, 128, 1);
+}
+.subsecoptpg{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 5%;
+    padding-left: 4%;
+}
+.waxfragburn{
+    border: 1px solid rgba(230, 230, 230, 1);
+    margin-top: 5%;
+    margin-right: 20%;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+    line-height: 30px;
+    border-radius: 7px;
+    margin-left: 5px;
+}
+.waxfragburn>p{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+}

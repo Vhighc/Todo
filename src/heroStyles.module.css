@@ -1,0 +1,6 @@
+.herosec{
+    background-image: url(./Components/Images/HoBgImage1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

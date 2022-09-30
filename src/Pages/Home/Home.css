@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&family=Poppins:wght@100;200;300&family=Quicksand:wght@300;400;600;700&family=Roboto:wght@100;300;400&display=swap');
+
+
+.sec3{
+    background: #56B2801A;
+    margin-bottom: 6%;
+}
+.sec3>h1{
+    color: #0B254B;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 4.5%;
+}
+.sec3>p{
+    font-size: 18px; 
+    font-family: 'Poppins', sans-serif;
+    color: #5E6E89;
+    text-align: center;
+    font-weight: 500;
+}
+.prodsec4{
+    margin-bottom: 4%;
+    margin-top: 3%;
+}

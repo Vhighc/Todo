@@ -1,0 +1,8 @@
+.logcompcont{
+    margin-left: 20%;
+    margin-top: 2%
+}
+.logcompcont :nth-child(2){
+    position: relative;
+    bottom: 11px;
+}
