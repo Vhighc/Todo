@@ -1,11 +1,11 @@
 import {
-  CloudUploadIcon,
-  DatabaseIcon,
-  PaperAirplaneIcon,
-  ServerIcon,
-} from '@heroicons/react/solid'
+  CircleStackIcon,
+  WindowIcon,
+  RocketLaunchIcon,
+  CloudIcon,
+} from '@heroicons/react/24/solid'
 
-import bgImg from '../assets/cyber-bg.png'
+import bgImg from '../Assets/imageBG.png'
 
 const Hero = () => {
 return (
@@ -25,10 +25,10 @@ return (
           border border-slate-300 rounded-xl text-center shadow-xl'>
               <p>Data Services</p>
               <div className='flex justify-between flex-wrap px-4'>
-                  <p className='flex px-4 py-2 text-slate-500'><CloudUploadIcon className='h-6 text-indigo-600' /> App Security</p>
-                  <p className='flex px-4 py-2 text-slate-500'><DatabaseIcon className='h-6 text-indigo-600' /> Dashboard Design</p>
-                  <p className='flex px-4 py-2 text-slate-500'><ServerIcon className='h-6 text-indigo-600' /> Cloud Data</p>
-                  <p className='flex px-4 py-2 text-slate-500'><PaperAirplaneIcon className='h-6 text-indigo-600' /> API</p>
+                  <p className='flex px-4 py-2 text-slate-500'><CircleStackIcon className='h-6 text-indigo-600' /> App Security</p>
+                  <p className='flex px-4 py-2 text-slate-500'><WindowIcon className='h-6 text-indigo-600' /> Dashboard Design</p>
+                  <p className='flex px-4 py-2 text-slate-500'><CloudIcon className='h-6 text-indigo-600' /> Cloud Data</p>
+                  <p className='flex px-4 py-2 text-slate-500'><RocketLaunchIcon className='h-6 text-indigo-600' /> API</p>
               </div>
           </div>
       </div>
