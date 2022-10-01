@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import { animateScroll as scroll, } from 'react'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll'
+// import { Link,animateScroll as scroll, } from 'react-scroll'
+
 
 
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
