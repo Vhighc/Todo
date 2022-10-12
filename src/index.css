@@ -12,3 +12,11 @@
     hover:bg-transparent hover:text-indigo-600 rounded-md
   }
 }
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(48, 16, 255, 1) 0%,
+    rgba(100, 115, 255, 1) 100%
+  );
+}

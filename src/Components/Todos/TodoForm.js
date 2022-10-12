@@ -24,7 +24,7 @@ function TodoForm(props) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className='todo-form'>
+    <form onSubmit={handleSubmit} class='mb-[32px]'>
       {props.edit ? (
         <>
           <input
@@ -33,7 +33,7 @@ function TodoForm(props) {
             onChange={handleChange}
             name='text'
             ref={inputRef}
-            className='todo-input edit'
+            class='placeholder:text-[#e2e2e2] text-[#fff] bg-transparent w-[320px] outline-hidden pt-[14px] pr-[32px] pb-[14px] pl-[16px] rounded-t-[4px] rounded-r-[0] rounded-b-[0] rounded-l-[4px] border-solid border-[2px] border-bord-blue'
           />
           <button onClick={handleSubmit} className='todo-button edit'>
             Update
@@ -46,7 +46,7 @@ function TodoForm(props) {
             value={input}
             onChange={handleChange}
             name='text'
-            className='todo-input'
+            class='placeholder:text-[#e2e2e2] text-[#fff] bg-transparent w-[320px] outline-hidden pt-[14px] pr-[32px] pb-[14px] pl-[16px] rounded-t-[4px] rounded-r-[0] rounded-b-[0] rounded-l-[4px] border-solid border-[2px] border-bord-blue'
             ref={inputRef}
           />
           <button onClick={handleSubmit} className='todo-button'>

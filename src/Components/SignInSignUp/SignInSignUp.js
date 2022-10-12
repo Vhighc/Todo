@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-// import Todo from "./Todo";
-import Todos from '../Todos/TodoList'
+import TodoList from '../Todos/TodoList'
 import dcuLogoDark from '../Assets/dcuLogoDark.png';
 
 
@@ -36,7 +35,7 @@ const SignInSignUp =() => {
    }
 
    const handleSignIn=()=>{
-    if(email.current.value==localEmail&&password.current.value==localPassword){
+    if(email.current.value===localEmail&&password.current.value===localPassword){
         localStorage.setItem("signUp",email.current.value)
         window.location.reload()
     }else{
@@ -45,7 +44,7 @@ const SignInSignUp =() => {
    }
     return(
         <div>
-            {showHome?<Todos />:
+            {showHome?<TodoList />:
             (show?
                 <div class="bg-[rgb(1,103,90)] h-[100vh]" >
                     <h1 class='text-[#fff] text-center text-[20 px] mb-[2%]'>Hello {localName}</h1> 

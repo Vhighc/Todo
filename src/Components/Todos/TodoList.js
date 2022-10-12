@@ -51,9 +51,10 @@ function TodoList() {
   };
 
   return (
-    <>
-      <p>Wellcome {localStorage.getItem("name")}</p>
-      <h1>What's the Plan for Today?</h1>
+    <div>
+      <p class='mt-[3%] ml-[10%] text-[24px] text-[#fff]'>Welcome {localStorage.getItem("name")}</p>
+    <div class='flex flex-col justify-start w-[520px] min-h-[600] bg-[#161a2b] text-center mx-[auto] mt-[128px] rounded-[10px] pb-[32px]'>
+      <h1 class='mx-[0] my-[32px] text-[24px] text-[#fff]'>What's the Plan for Today?</h1>
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}
@@ -67,7 +68,8 @@ function TodoList() {
       <button onClick={deleteAccount} className="delete">
         Delete
       </button>
-    </>
+    </div>
+    </div>
   );
 }
 
